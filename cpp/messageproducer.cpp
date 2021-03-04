@@ -257,7 +257,7 @@ int messageproducer_i::serviceFunction()
 
     Component_Members_struct my_msg;
     my_msg.String = "Hellow....!";
-    my_msg.Float = "1.0";
+    my_msg.Float = 1.0;
     this->message_out->sendMessage(my_msg);
     
     return NOOP;
